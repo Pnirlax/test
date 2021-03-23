@@ -1,0 +1,241 @@
+.nav-tabs{
+  background-color: #7b109e;
+}
+
+.txtcolor{
+  color: black;
+}
+
+.activatebtn{
+  background-color: #7b109e;
+}
+.active a {
+  color : black!important;
+  /* background-color: black; */
+}
+.nav-item > a:hover {
+  color : rgb(236, 110, 38)!important;
+}
+
+.home{
+
+  height: 700px;
+ width: initial;
+
+}
+.home1{
+
+height: 700px;
+width: initial;
+
+}
+.editprofile{
+width: initial;
+height: 550px;
+}
+.c-content{
+position: absolute;
+bottom: 50%;
+left: 5%;
+z-index: 20;
+color: white;
+text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.c-content p{
+    color: black;
+    font-family: bold;
+    font-size: 20px;
+}
+#title{
+color: #7b109e;
+font-size: 50px;
+font-family:bold ;
+text-shadow: burlywood;
+}
+.mainhome{
+
+height: 750px;
+width: initial;
+
+}
+#opt{
+color: black;
+}
+#head{
+background-color: lavender;
+}
+
+#back{
+  background-color: rgb(237, 217, 243);
+}
+
+#signup{
+  background-color: powderblue;
+}
+#reset{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(74, 105, 122);
+}
+#activate{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(113, 114, 101);
+}
+.forgotpass{
+  border: 1px solid  #7b109e;
+background-color: white;
+color: #7b109e;
+padding: 10px 20px;
+font-size: 12px;
+cursor: pointer;
+border-radius: 0.5rem;
+}
+.forgotpass :hover{
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+#mynoteapp-container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.app-container {
+  height: 100%;
+  
+ 
+}
+.quill {
+  height: 100%;
+  box-sizing: border-box;
+  
+  width: calc(100% - 300px);
+  float: left;
+}
+.ql-container {
+  box-sizing: border-box;
+  height: calc(100% - 42px);
+  overflow-y: scroll;
+}
+.ql-editor {
+  cursor: text;
+}
+.MuiListItem-root.Mui-selected {
+  background-color: #d4d8e8 !important;
+}
+.no-note-selected {
+  font-size: 48px;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 165px);
+}
+/* .sortbar{
+float: right;
+} */
+#sortb{
+width: 2px;
+}
+.sort{
+  /* float: right; */
+  /* width: 20px; */
+  size: 50;
+  margin-top: 2%;
+  margin-right: 2%;
+  border-block-end-color: lawngreen;
+  border-block-end-style: double;
+}
+.filter{
+  margin-top: 2%;
+  /* float: right; */
+  margin-right: 4%;
+  border-block-end-color: lawngreen;
+  border-block-end-style: double;
+}
+
+/* The sidebar menu */
+.sidenav {
+height: 100%; /* Full-height: remove this if you want "auto" height */
+width: 160px; /* Set the width of the sidebar */
+position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+z-index: 1; /* Stay on top */
+top: 0; /* Stay at the top */
+left: 0;
+background-color: #7b109e; /*  */
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 20px;
+
+
+}
+
+.searchIcon{
+position: absolute;
+margin-top: 9px;
+margin-left: 2%;
+color: #7b109e;
+border-block-end-width: inherit;
+}
+#searchbox :hover{
+color: coral;
+}
+#searchbox{
+margin-left: 50px;
+width: 230px;
+}
+
+/* for user icon */
+#usericon{
+height: 30px;
+width: 30px;
+background-color: #d4d8e8;
+border-radius: 50%;
+position: absolute;
+}
+#first{
+position: absolute;
+margin-left: 10%;
+}
+#last{
+position: static;
+margin-left: 43%;
+}
+/* The navigation menu links */
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: teal;
+font-family:a;
+font-size: 25px;
+color: #f1f1f1;
+display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav :hover {
+color: #b7a1c094;
+}
+
+/* Style page content */
+.container {
+margin-top: 0px;
+margin-left: 160px; /* Same as the width of the sidebar */
+padding: 0px 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+#del :hover{
+color: rgb(236, 110, 38);
+}
